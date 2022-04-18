@@ -30,7 +30,7 @@ body {
 }
 
 form {
-    position: relative;
+    position: absolute;
     margin-top: 80px;
     transition: .5s;
     width: 300px;
@@ -60,10 +60,55 @@ form {
     transition: .3s;
 }
 
-input[type= "text"], input[type="password"] {
+input[type= "email"], input[type="password"] {
     border: none;
     margin-top: 40px;
     border-radius: 60px;
     padding: 8px 0 8px 35px;
     outline: none;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background:#660fc8;
+    color: #fff;
+    border-radius:  30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.div-check {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+#signin {
+    left: 25px;
+}
+
+#signup {
+    left: 450px;
+}
+
+i {
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.iEmail {
+    top: 40px;
+}
+
+.iPassword {
+    top: 114px;
+}
+.iPassword2 {
+    top: 190px;
 }
