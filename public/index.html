@@ -6,9 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignIN SignUP</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
     <script src="../src/script.js" defer></script>
 </head>
 <body>
+    <div class="container">
+        <div class="buttons-form">
+            <div class="btn-color"></div>
+            <button id="btn-signin">Sign In</button>
+            <button id="btn-signup">signup</button>
+        </div>
+
+        <form  id="signin">
+            <input type="text" placeholder="Digite seu Email!" required >
+            <i class="fas fa-envelope iEmail"></i>
+            <input type="password" placeholder="Digite sua senha!" required >
+            <i class="fas fa-lock iPassword"></i>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
     
 </body>
 </html>
